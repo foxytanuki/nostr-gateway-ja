@@ -6,8 +6,7 @@ export default function Home() {
   return (
     <div className="nes-container">
       <p>
-        The Nostr gateway is an effort to pull Nostr data from relays around the
-        nostrsphere into HTML pages for the consumption of the unnostrinitiated.
+        Nostr Gateway は、Nostrのデータを世界中のリレーからHTMLページに取り込み、不特定多数の人が利用できるようにするための取り組みです。
       </p>
 
       <form
@@ -18,11 +17,11 @@ export default function Home() {
       >
         <div className="nes-field">
           <label htmlFor="input">
-            Paste a Nostr event key or a public key here in{' '}
+            Nostrのイベントキーか、
             <a href="https://github.com/nostr-protocol/nips/blob/master/19.md">
               NIP-19
             </a>{' '}
-            format:
+            形式のパブリックキーを入力してください:
           </label>
           <input name="input" id="input" className="nes-input" />
         </div>
@@ -36,7 +35,7 @@ export default function Home() {
             style={{
               paddingLeft: '1.5rem',
               paddingRight: '1.5rem',
-              fontSize: '130%'
+              fontSize: '110%'
             }}
           >
             Go
@@ -44,35 +43,36 @@ export default function Home() {
         </div>
       </form>
 
-      <h2>What is Nostr?</h2>
+      <h2>Nostrとは?</h2>
       <p>
-        A decentralized network based on cryptographic keypairs and that is not
-        peer-to-peer, it is super simple and scalable and therefore has a chance
-        of working.
+        とてもシンプルでスケーラブルな、暗号鍵ペアに基づく分散型ネットワークです。P2Pではありません。
       </p>
       <p>
-        Read more at{' '}
+        詳しくはこちら:{' '}
         <a href="https://github.com/nostr-protocol/nostr">
           https://github.com/nostr-protocol/nostr
         </a>
-        or see a giant list of all things, good and bad, made with Nostr, at{' '}
-        <a href="https://nostr.net">nostr.net</a>.
       </p>
       <p>
-        You can also reach us at{' '}
-        <a href="https://t.me/nostr_protocol">our Telegram group</a> while we
-        don&apos;t have a decent group chat application fully working on Nostr.
+        Nostrに関するプロジェクトをまとめたサイトはこちら:{' '}
+        <a href="https://nostr.net">nostr.net</a>
       </p>
-
       <br />
 
       <h2>Contribute to this site!</h2>
       <p>
-        You can find the source code for this gateway website at{' '}
+        当サイトは以下のRepositoryを元に作成されました。
+        <br />
         <a href="https://github.com/fiatjaf/nostr-gateway">
           https://github.com/fiatjaf/nostr-gateway
         </a>{' '}
-        while we haven&apos;t finished implementing Git over Nostr yet.
+      </p>
+      <p>
+        当サイトに変更を加えたい方はこちら↓
+        <br />
+        <a href="https://github.com/nostrich-day/nostr-gateway-ja">
+          https://github.com/nostrich-day/nostr-gateway-ja
+        </a>{' '}
       </p>
     </div>
   )
