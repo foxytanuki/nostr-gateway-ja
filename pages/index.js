@@ -70,8 +70,8 @@ export default function Home() {
       <p>
         当サイトに変更を加えたい方はこちら↓
         <br />
-        <a href="https://github.com/nostrich-day/nostr-gateway-ja">
-          https://github.com/nostrich-day/nostr-gateway-ja
+        <a href="https://github.com/foxytanuki/nostr-gateway-ja">
+          https://github.com/foxytanuki/nostr-gateway-ja
         </a>{' '}
       </p>
     </div>
